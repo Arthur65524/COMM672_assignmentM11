@@ -177,7 +177,9 @@ body.home {
     font-weight: bold;
 }
 .team {
-    padding-bottom: 20px;
+    background-color: #efefef;
+    width: 100%;
+    padding: 20px 150px;
 }
 .team img {
     width: 80px;
@@ -189,9 +191,15 @@ body.home {
 }
 .team-block {
     text-align: center;
-    width: 25%;
 }
 /**About Page**/
+.about-us   {
+    color: #fff;
+    background-color: #222e50;
+    text-align: center;
+    margin: auto;
+    padding: 5px;
+}
 .about .container {
     max-width: 900px;
 }
