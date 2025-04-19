@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&family=Raleway:wght@100..900&display=swap');
 
 * {
     box-sizing: border-box;
@@ -124,6 +124,7 @@ body.home {
     padding-bottom: 15px;
 }
 .features h2 {
+    font-size: 1.5em;
     padding: 15px 0px;
 }
 .feature-container {
@@ -140,11 +141,14 @@ body.home {
     width: 32%;
 }
 .feature-block h3 {
-    padding: 10px;
+    padding: 15px;
 }
 .feature-block p {
     line-height: 25px;
     padding-bottom: 5px;
+}
+.feature-block a {
+    color: #222e50;
 }
 .testimonials {
     background-color: #222e50;
@@ -153,6 +157,7 @@ body.home {
 .testimonials h2 {
     color: #fff;
     text-align: center;
+    padding: 15px 0px 25px 0px;
 }
 .testimonial-container {
     display: flex;
@@ -163,6 +168,9 @@ body.home {
     padding: 20px;
     flex: auto;
     width: 33%;
+}
+.testimonial-block span {
+    font-weight: bold;
 }
 .team {
     padding-bottom: 20px;
