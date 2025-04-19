@@ -170,6 +170,9 @@ body.home {
     flex: auto;
     width: 33%;
 }
+.testimonial-block {
+    line-height: 25px;
+}
 .testimonial-block span {
     font-weight: bold;
 }
