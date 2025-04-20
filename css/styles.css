@@ -232,7 +232,6 @@ body.home {
   .video {
     flex-shrink: 0;
   }
-
 /**Community Page**/
 .community {
     display: grid;
@@ -281,6 +280,15 @@ body.home {
 .event-block p {
     padding-bottom: 20px;
 }
+.calendar {
+    text-align: center;
+}
+
+
+
+
+
+
 /**Feature Page**/
 .feature-page-block {
     border: 1px solid #efefef;
@@ -533,4 +541,22 @@ footer img {
     .full-width {
         grid-column: span 1;
     }
+    iframe, .video {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+    }
+    .overview {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 50px 100px 10px 100px;
+        box-sizing: border-box;
+      }
+      .text {
+        text-align: center;
+      }
+      .text h2 {
+        text-align: center;
+      }
 }
