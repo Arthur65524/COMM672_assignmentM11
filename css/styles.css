@@ -212,6 +212,27 @@ body.home {
     width: 80px;
     height: 80px;
 }
+.overview {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 50px 100px 10px 100px;
+    box-sizing: border-box;
+  }
+  .text {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+  .text h2 {
+    text-align: left;
+  }
+  .video {
+    flex-shrink: 0;
+  }
+
 /**Community Page**/
 .community {
     display: grid;
