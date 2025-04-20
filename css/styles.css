@@ -283,12 +283,6 @@ body.home {
 .calendar {
     text-align: center;
 }
-
-
-
-
-
-
 /**Feature Page**/
 .feature-page-block {
     border: 1px solid #efefef;
@@ -306,8 +300,23 @@ body.home {
 .contact-container {
     display: flex;
     gap: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 50px; 
+    margin: auto;
+    padding-top: 50px;
+    justify-content: center;
 }
+.contact-h2 {
+    color: #fff;
+    background-color: #222e50;
+    width: 100%;
+    padding: 20px 0px;
+    margin: 0 auto;
+   
+}
+
+
+
+
 .contact-container address {
     width: 30%;
 }
